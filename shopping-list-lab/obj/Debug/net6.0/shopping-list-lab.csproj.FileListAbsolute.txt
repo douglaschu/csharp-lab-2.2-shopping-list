@@ -1,0 +1,15 @@
+/Users/doug/Documents/Coding/grand-circus/back-end/labs/lab-2.2-shopping-list/shopping-list-lab/bin/Debug/net6.0/shopping-list-lab
+/Users/doug/Documents/Coding/grand-circus/back-end/labs/lab-2.2-shopping-list/shopping-list-lab/bin/Debug/net6.0/shopping-list-lab.deps.json
+/Users/doug/Documents/Coding/grand-circus/back-end/labs/lab-2.2-shopping-list/shopping-list-lab/bin/Debug/net6.0/shopping-list-lab.runtimeconfig.json
+/Users/doug/Documents/Coding/grand-circus/back-end/labs/lab-2.2-shopping-list/shopping-list-lab/bin/Debug/net6.0/shopping-list-lab.dll
+/Users/doug/Documents/Coding/grand-circus/back-end/labs/lab-2.2-shopping-list/shopping-list-lab/bin/Debug/net6.0/shopping-list-lab.pdb
+/Users/doug/Documents/Coding/grand-circus/back-end/labs/lab-2.2-shopping-list/shopping-list-lab/obj/Debug/net6.0/shopping-list-lab.csproj.AssemblyReference.cache
+/Users/doug/Documents/Coding/grand-circus/back-end/labs/lab-2.2-shopping-list/shopping-list-lab/obj/Debug/net6.0/shopping-list-lab.GeneratedMSBuildEditorConfig.editorconfig
+/Users/doug/Documents/Coding/grand-circus/back-end/labs/lab-2.2-shopping-list/shopping-list-lab/obj/Debug/net6.0/shopping-list-lab.AssemblyInfoInputs.cache
+/Users/doug/Documents/Coding/grand-circus/back-end/labs/lab-2.2-shopping-list/shopping-list-lab/obj/Debug/net6.0/shopping-list-lab.AssemblyInfo.cs
+/Users/doug/Documents/Coding/grand-circus/back-end/labs/lab-2.2-shopping-list/shopping-list-lab/obj/Debug/net6.0/shopping-list-lab.csproj.CoreCompileInputs.cache
+/Users/doug/Documents/Coding/grand-circus/back-end/labs/lab-2.2-shopping-list/shopping-list-lab/obj/Debug/net6.0/shopping-list-lab.dll
+/Users/doug/Documents/Coding/grand-circus/back-end/labs/lab-2.2-shopping-list/shopping-list-lab/obj/Debug/net6.0/refint/shopping-list-lab.dll
+/Users/doug/Documents/Coding/grand-circus/back-end/labs/lab-2.2-shopping-list/shopping-list-lab/obj/Debug/net6.0/shopping-list-lab.pdb
+/Users/doug/Documents/Coding/grand-circus/back-end/labs/lab-2.2-shopping-list/shopping-list-lab/obj/Debug/net6.0/shopping-list-lab.genruntimeconfig.cache
+/Users/doug/Documents/Coding/grand-circus/back-end/labs/lab-2.2-shopping-list/shopping-list-lab/obj/Debug/net6.0/ref/shopping-list-lab.dll
