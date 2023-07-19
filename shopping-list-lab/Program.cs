@@ -31,18 +31,25 @@ while (runShopping)
     }
     Console.WriteLine("Please make a selection from the above to add to your shopping list.");
     string item = (Console.ReadLine()).ToLower();
+
     
+
     if (menu.Keys.Any(n => n.ToLower().Contains(item)))
     {
         string result = menu.Keys.FirstOrDefault(n => n.ToLower().Contains(item));
         shoppingList.Add(result);
-        
-    } else
+        //How to correct for having items with shared letters
+        //if (input.Length >= 3)
+        //{ partial search }
+        //
+
+    }
+    else
     {
         Console.WriteLine("Sorry, we don't carry that!");
     }
 
-    if (shoppingList.Count >= 0)
+    if (shoppingList.Count > 0)
     {
         Console.WriteLine("Here is your shopping list:");
 
@@ -56,7 +63,7 @@ while (runShopping)
         Console.WriteLine("Your shopping list has no items on it.");
         Console.WriteLine("Would you like to add an item to your shopping list? (y/n)");
     }
-    //this is a funnel. 
+    //the if/else conditional here works as a funnel. Both go on to the "Continue" while loop. The only difference is the phrasing of the prompt the user sees to continue. A small semantical detail.
 
     while (true)
     {
@@ -67,7 +74,9 @@ while (runShopping)
             Console.WriteLine($"\n\nWe are most grateful for your patronage, brave adventurer.");
             Console.WriteLine("Here is your receipt for today:");
             decimal sum = 0;
-            foreach (string i in shoppingList)
+            string maxPriceKey = shoppingList.First();
+            string minPriceKey = shoppingList.First();
+            foreach (string i in shoppingList.OrderByDescending(c => menu[c]))
             {
                 Console.WriteLine($"{i}.....{menu[i]} gil");
                 sum += menu[i];
@@ -104,6 +113,20 @@ while (runShopping)
 } //end of RunShopping loop aka user shopping time
 
 Console.ReadLine();
+
+//Extended Challenge pseudocode
+//1. Min and max
+//Modify foreach loop to include round-by-round min and max comparison finding (can set up with dual if statements, no else needed)
+//2. Menu item by number
+//"PLS SELECT ITEM"
+//int menuIndex = -1; (set default value to a null)
+// if (int.TryParse(menuChoice, out menuIndex))
+// ("out" is a parameter specifying what the OUTPUT is.)
+//
+//{
+//    menuChoice = menu.ElementAt(menuIndex).Key;
+//}
+//      if TryParse can't parse the user input (menuChoice), 
 
 //8 items:
 /*
